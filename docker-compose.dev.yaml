@@ -69,7 +69,7 @@ services:
       context: ./ml-client
       dockerfile: ./Dockerfile
     environment:
-      DOMAIN: localhost
+      DOMAIN: 139.99.77.105
       BE_HOST: ml-api
       BE_PORT: 8081
     container_name: ml-client

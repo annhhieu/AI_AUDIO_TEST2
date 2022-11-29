@@ -49,7 +49,7 @@ const Dashboard = () => {
         };
         try {
             const res = await axios.post(
-              "http://localhost:8081/api/v1/object-detection/process",
+              "http://139.99.77.105:8081/api/v1/object-detection/process",
               fmData,
               config
             );
@@ -67,7 +67,7 @@ const Dashboard = () => {
 
     const getStatusSession = (sessionId, onUploadProgress) => {
         return axios.create({
-          baseURL: "http://localhost:8081/api/v1/",
+          baseURL: "http://139.99.77.105:8081/api/v1/",
           }).get("object-detection/status/" + sessionId, {
           headers: {
             "accept": "application/json",

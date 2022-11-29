@@ -42,10 +42,10 @@ This repo gives an introduction to how to make full working example to serve you
 
 | Service               | URL                              | 
 | :-------------------: | :------------------------------: | 
-| API docs              | http://localhost/api/docs        |
-| Demo Web              | http://localhost                 | 
+| API docs              | http://139.99.77.105/api/docs        |
+| Demo Web              | http://139.99.77.105               | 
 
-go to Demo web ```http://localhost``` and test with your picture.
+go to Demo web ```http://139.99.77.105``` and test with your picture.
 
 ![Test](public/test.png)
 
